@@ -1,0 +1,42 @@
+<Order Createuserid="" CustomerEMailID="oms@bestbuy.com" CustomerPONo="BBY01-RENEW-1350301852"  Division="DIGITERRA" DocumentType="0001" DraftOrderFlag="N" EnteredBy="960" EnterpriseCode="BESTBUY" EntryType="WEB" OrderDate="20151207T12:43:07" OrderName="" OrderNo="BBY01-RENEW-1785867829"  PaymentStatus="HOLD" PriorityCode="" SearchCriteria1="ATG26836780128" SearchCriteria2="" ShipCompleteFlag="N">
+<OrderLines>
+<Item CostCurrency="USD" CustomerItem="2010866"  ItemDesc="Metra - 20&amp;#39; 12AWG Standard Speaker Wire - Black" ItemID="1560385" ItemShortDesc="Metra-20&amp;#39; 12AWG Standard Speaker Wire-Black-TC5TSW12-20" ItemWeight="1.55" ManufacturerItem="" ManufacturerItemDesc="TC5TSW12-2" ManufacturerName="METRA ELECTRONICS CORP          " ProductLine="11.18.300" UPCCode="086429258390" UnitOfMeasure="EACH"/>
+<Notes/>
+<PersonInfoShipTo AddressLine1="3465 Mamala Bay Dr" AddressLine2="" AddressLine3=" " AddressLine4=" " AddressLine5=" " AddressLine6="BUSINESS" City="HONOLULU" Country="US" DayPhone=" " EMailID=" " EveningPhone=" " FirstName="RICHFIELD MN" LastName=" " MiddleName=" " State="HI" Suffix=" " Title=" " ZipCode="96818"/>
+<LinePriceInfo DiscountPercentage=" " ListPrice="19.99" RetailPrice="19.99" UnitPrice="19.99"/>
+<LineCharges/>
+<LineTaxes>
+<LineTax ChargeCategory="Price" ChargeName="Sales Tax" Reference1="7.27" Reference2=" " Reference3=" " Tax="1.45" TaxName="Sales Tax" TaxPercentage="7.27" TaxableFlag="Y">
+<Extn ImpositionName="Sales Tax" ImpositionPIM="" ImpositionSKU=""/>
+</LineTax>
+</LineTaxes>
+<Extn AvailCode="115" AvailMessage="Store Pickup:" Format=" " FreeShippingFlag="N" IsAgent="N" IsAgentGiftRecipient="N" IsCargoOffline="N" IsGiftReceipt="N" IsHazmat="N" IsKnownBackOrder="N" IsSDWSDown="N" PreOrderFlag="N" PriceOverriddenFlag="N" PromoCode1=" " PromoCode1Description=" " PromoCode2=" " PromoCode2Description=" " PromoCode3=" " PromoCode3Description=" " PromoCode4=" " PromoCode4Description=" " PromoCode5=" " PromoCode5Description=" " PseudoSKU=" " PseudoSKUDescription=" " ShippingGroupId="sg24624090461" StreetDate="00010101T00:00:00" Subcategory="300">
+<EOMSOrderLineList>
+<EOMSOrderLine AdminOrgnLocId="" AdminOrgnTaxAreaId="240530880" AssumedInv="N" BBYRemittedTaxFlag="" CustDsgntTaxAreaId="240530880" CustomerClassCode="" EarliestAppointmentDate="" IsReverseDirection="N" ListingID="" PIMCode="100001" PhysOrgnTaxAreaId="240530880" SalesSource="BBYC" SellerCANexus="" SellerEmail="" SellerID="" SellerNCNexus="" SellerName="" SellerPhone="" TECCertKey="" TaxExemptStatus="N" TaxOfflineFlag="N" ZipPlus4Flag="Y"/>
+</EOMSOrderLineList>
+<EOMSLineTaxContextValueList>
+<EOMSLineTaxContextValue ChargeCategory="Price" ContextName="EnergyStarIndicator" ContextValue="N"/>
+<EOMSLineTaxContextValue ChargeCategory="Price" ContextName="AverageCost" ContextValue="10.6857"/>
+<EOMSLineTaxContextValue ChargeCategory="Price" ContextName="PrePaidIndicator" ContextValue="N"/>
+</EOMSLineTaxContextValueList>
+</Extn>
+<Dependency/>
+<Promotions/>
+</OrderLine>
+
+<NumberOfOrderLines>
+1</NumberOfOrderLines>
+</OrderLines>
+<PersonInfoShipTo AddressLine1="1000 WEST 78TH ST" AddressLine2="" AddressLine3=" " AddressLine4=" " AddressLine5=" " AddressLine6="BUSINESS" City="RICHFIELD" Country="US" DayPhone=" " EMailID=" " EveningPhone=" " FirstName="RICHFIELD MN" LastName=" " MiddleName=" " State="MN" Suffix=" " Title=" " ZipCode="554233912"/>
+<PersonInfoBillTo AddressLine1="22001 84TH AVE S" AddressLine2="" AddressLine3="" AddressLine4=" " AddressLine5=" " AddressLine6=" " City="KENT" Company="" Country="US" DayFaxNo="" DayPhone="987-654-3210" Department="" EMailID="a.p@bestbuy.com" EveningFax=" " EveningPhone="" FirstName="oms" JobTitle=" " LastName="automation" MiddleName="" PhoneNumber="9876543210" State="WA" Suffix="" Title="" ZipCode="98032"/>
+<PersonInfoContact AddressLine1="22001 84TH AVE S" AddressLine2="" AddressLine3="" AddressLine4=" " AddressLine5=" " AddressLine6=" " City="KENT" Company="" Country="US" DayFaxNo="" DayPhone="987-654-3210" Department="" EMailID="a.p@bestbuy.com" EveningFax=" " EveningPhone="" FirstName="oms" JobTitle=" " LastName="automation" MiddleName="" PhoneNumber="9876543210" State="WA" Suffix="" Title="" ZipCode="98032"/>
+<PaymentMethods>
+<PaymentMethod CreditCardExpDate="10/17" CreditCardName="oms automation" CreditCardNo="8406534613180026" CreditCardType="Discover" MaxChargeLimit=" " PaymentReference2=" " PaymentReference3=" " PaymentType="CREDIT_CARD" UnlimitedCharges="Y" chargeSequence=" " AuthStrikes="0">
+<PaymentDetails ChargeType="AUTHORIZATION" RequestAmount="21.44" TranType="AUTHORIZATION"/>
+</PaymentMethod>
+</PaymentMethods>
+<Extn AddressOverriddenFlag="N" AddressStandardizedFlag="Y" AffiliateID="" Amount="19.99" BBYRemittedTaxFlag="" BankHold="N" ClickID=" " CustomerFraudFlag="N" CustomerOrderCount="0" CustomerPartyID="" Discounted="N" EnhancedFraudNegativeResult="" FraudClearedFlag=" " GroupCount="1" GroupID="BBY01-732844000132" HRSCardUsedFlag="N" IPAddress="172.30.128.200" IsSkipSchedule="N" LoggedInFlag="N" LoyaltyID=" " OrderClassType="default" OrderOriginationLocation="960" OrderRequiredUpdates="Y" PCardFlag="N" PromoCode1=" " PromoCode1Description=" " PromoCode2=" " PromoCode2Description=" " PromoCode3=" " PromoCode3Description=" " PromoCode4=" " PromoCode4Description=" " PromoCode5=" " PromoCode5Description=" " ROSOrderCount="0" RawSubTotal="19.99" SalesSource="BBYC" SellerID="" SessionID="96e0d6f63d3f49e88648f19ef8f48c64" ShippingAmount="0.0" SkipScheduleReasonCode="" SourceID=" " TECCardNo="" Tax="1.45" VirtualOrderType=" "/>
+<Promotions/>
+</Order>
+
+
