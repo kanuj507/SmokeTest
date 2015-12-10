@@ -23,7 +23,6 @@
 <Dependency/>
 <Promotions/>
 </OrderLine>
-
 <NumberOfOrderLines>
 1</NumberOfOrderLines>
 </OrderLines>
