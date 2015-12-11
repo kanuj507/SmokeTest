@@ -50,10 +50,15 @@ public class Data_Reader
 	 public ResultSet rs;
 	
 	//---------------------------------------- FUNCTION DEFINITIONS --------------------------------------------------------
+	
+	
+	
 	 
-	 	
-	
-	
+	 
+	 public void ReadData()
+	 {
+		 
+	 }
 	
 	
 	
@@ -312,7 +317,7 @@ public class Data_Reader
 	     return data;
 	   }
 	   
-	   public void read_Script( String workBookName,String foldername,String columnNames) throws Exception
+	   /*public void read_Script( String workBookName,String foldername,String columnNames) throws Exception
 	   {
 		   ArrayList<String> TCCID=new ArrayList<String>();
 		   String[] columnName= columnNames.split(",");
@@ -375,5 +380,5 @@ public class Data_Reader
 	
 		
 	}
-}
+*/}
 

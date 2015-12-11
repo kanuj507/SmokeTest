@@ -15,8 +15,10 @@ public class Constant_Class {
 	//Execution environment
 	public static String OMSEnvironment="";
 	public static String sCurrentLine;
-	public static String input_Dotcom_WorkbookName="";
-	public static String input_Dotcom_SheetName="";
+	public static String input_Dotcom_WorkbookName="DATASHEET";
+	public static String input_Dotcom_SheetName="Data";
+	public static String XMLMapping_SheetName="XMLMapping";
+	public static String input_Data_SheetName="TestData";	
 	public static String BUSINESS_FUNCTION;
 	public static String DATA;
 	public static String scriptName;

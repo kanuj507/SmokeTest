@@ -43,5 +43,6 @@
 	<classpathentry kind="lib" path="C:/Users/anuj.pachauri/Downloads/selenium-java-2.45.0/selenium-2.45.0/selenium-java-2.45.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/anuj.pachauri/Downloads/selenium-java-2.45.0/selenium-2.45.0/selenium-java-2.45.0-srcs.jar"/>
 	<classpathentry kind="lib" path="C:/Users/anuj.pachauri/Downloads/ojdbc14.jar.zip"/>
+	<classpathentry kind="lib" path="C:/Users/anuj.pachauri/Downloads/jxl-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

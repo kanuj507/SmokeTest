@@ -10,6 +10,7 @@ public class DriverClass {
 
 }*/
 
+import java.io.File;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -20,6 +21,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 import constants.Constant_Class;
+import dto.DataDto;
+import jxl.Sheet;
+import jxl.Workbook;
 public class DriverClass {
     Connection con;
     static DriverClass DC =new DriverClass();
@@ -63,6 +67,44 @@ public class DriverClass {
 
 	}
     
+    public ArrayList<String>  getScriptIDs( String excelWorkbookName,String sheetName) throws Exception
+    {
+
+		DataDto ddto=new DataDto();
+		try{
+		ArrayList<String> executeTC = new ArrayList();
+		String execute = null;
+		  String workingDir = System.getProperty("user.dir");
+		   System.out.println("Current working directory : " + workingDir);
+		   String exPath = workingDir +"\\TestScripts\\Data\\"+excelWorkbookName+".xls" ;
+		File file = new File(exPath);
+		System.out.println(" "+file);
+		Workbook wb = Workbook.getWorkbook(file);
+		Sheet sheet = wb.getSheet(0);
+		int rows = sheet.getRows();
+		int column=sheet.getColumns();
+		System.out.println("Rows "+rows);
+		for(int i=1;i<rows;i++)
+		{
+			ddto.setTCID(sheet.getCell(0, i).getContents());
+			ddto.setEXECUTE(sheet.getCell(1, i).getContents());
+			if(ddto.getEXECUTE().equalsIgnoreCase("Y"))
+			{
+			ddto.getExecute.add(ddto.getEXECUTE()); 
+			ddto.executeTCID.add(ddto.getTCID());
+			}
+		}
+	System.out.println(" "+ddto.getExecute);
+	System.out.println("execute condition :"	+ddto.executeTCID);
+				
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		return ddto.executeTCID;
+    }
+    
     public ArrayList<String>  get_ScriptIDs( String excelWorkbookName,String sheetName) throws Exception
 	{
 		ArrayList<String> testCasesNames = new ArrayList<String>();
@@ -99,7 +141,7 @@ public class DriverClass {
 		try
 		{
 			ArrayList<String> temparray = new ArrayList<String>();
-			temparray= get_ScriptIDs(Constant_Class.input_Dotcom_WorkbookName,Constant_Class.input_Dotcom_SheetName);//General_OrderCreate
+			temparray= getScriptIDs("Execute_Script","SmokeTest");//General_OrderCreate
 			
 			for(int numTestCases=0;numTestCases<temparray.size();numTestCases++)
 				
@@ -113,7 +155,7 @@ public class DriverClass {
 					//callScript("KD.Driver_Script");//General_OrderCreation_Script
 					
 					DS.callScript();
-					Constant_Class.count=0;
+					//Constant_Class.count=0;
 				}
 				catch (Exception e) {
 				e.printStackTrace();	
