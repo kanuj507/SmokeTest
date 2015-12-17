@@ -1,0 +1,31 @@
+<project>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+	<target name="compile">
+		        <mkdir dir="build/classes"/>
+		        <javac srcdir="Source" destdir="build/classes"/>
+		    </target>
+    
+
+    <target name="jar">
+      <mkdir dir="build/classes"/>
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/SampleTest.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="SampleTest" value="testng.SamopleTest"/>
+            </manifest>
+        </jar>
+    </target>
+	
+
+    <target name="run">
+        <java jar="build/jar/SampleTest.jar" fork="true"/>
+    </target>
+
+</project>
+
+
+
+

@@ -33,7 +33,7 @@ public class Driver_Script {
 		//Step1: Read the data from OLS and OMS sheet
 		try
 		{
-			hInputData=RDS.readDataSheet(Constant_Class.scriptName);
+			//hInputData=RDS.readDataSheet(Constant_Class.scriptName);
 			//hInputData=DR.readData(hInputData,Constant_Class.input_Dotcom_WorkbookName,Constant_Class.input_Dotcom_SheetName,Constant_Class.scriptName);
 			hInputData=DR.readData(hInputData,Constant_Class.input_Dotcom_WorkbookName,Constant_Class.input_Dotcom_SheetName,Constant_Class.scriptName);
 //			hInputData=DR.readData(hInputData,Constant_Class.input_OLS_WorkbookName,Constant_Class.input_Dotcom_SheetName,Constant_Class.scriptName);					
